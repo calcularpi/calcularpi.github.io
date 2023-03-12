@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <script src="js/script.js"></script>
+    <title>Calcular dígitos de Pi</title>
+    <!-- ALAN RODRÍGUEZ GALLEGOS 6AOFIM. MATEMÁTICA APLICADA -->
+</head>
+
+<body>
+    <img src="img/Recurso 2.png" alt="">
+    <div class="textos">
+        <hr>
+        <form onsubmit="calcularDigitos(); return false;">
+            <p class="importantes">
+                <label for="numDigits">Escribe la cantiad de dígitos que deseas calcular del número pi:</label>
+                <br>
+                <input type="number" id="numDigits" name="numDigits" min="3" max="2500" required placeholder="Escribe aquí">
+                <button type="submit">Calcular</button>
+            </p>
+            <section class="form">
+            
+                <p class="importantes">El valor de pi es:</p>
+                <p class="importantes" id="result"></p>
+            </section>
+        </form>   
+        <hr>
+        <p class="importantes">El número pi es una constante matemática que representa la relación entre la
+            circunferencia de un círculo y su diámetro.
+            <br>
+            Es un número irracional,
+            lo que significa que no puede ser expresado como una fracción exacta.
+            <br>
+            Pi es utilizado en muchos campos de la
+            ciencia, la ingeniería y la tecnología, y tiene un papel fundamental en geometría, trigonometría y cálculo.
+            <br>
+            Para saber <a href="https://bibliotecadigital.univalle.edu.co/bitstream/handle/10893/1512/Rev.Ing.%20y%20Competitividad%20Vol%202%2c%20No%202%2c%20p.47-62%2c2000.pdf?sequence=3&isAllowed=y" target="_blank">más</a>.
+        </p>
+        <hr>
+        <p class="importantes">
+            Hecho por Alan Rodríguez Gallegos.
+            <br>
+            6AOFIM. Matemática Aplicada
+        </p>
+    </div>
+</body>
+
+</html>
