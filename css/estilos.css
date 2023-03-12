@@ -282,7 +282,7 @@ body p.importantes {
 body hr {
     size: 100px;
     width: 71vw;
-    height: 2px;
+    height: 1px;
     color: #FFF;
     background-color: #fff;
     margin: 0;
@@ -298,7 +298,7 @@ label {
     font-weight: bold;
 }
 
-input[type="number"] {
+input {
     width: 190px;
     height: 40px;
     border-radius: 5px;
@@ -306,13 +306,13 @@ input[type="number"] {
     border: #000;
 }
 
-button[type="submit"] {
+button {
     border: none;
     cursor: pointer;
     background-color: black;
 }
 
-button[type="submit"]:hover {
+button:hover {
     text-decoration: underline;
 }
 
@@ -321,6 +321,14 @@ section.form p.importantes {
 }
 
 section.form p#result {
+    font-family: 'JetBrains Mono';
+    font-weight: 100;
+    hyphens: auto;
+    word-wrap: break-word;
+    margin-bottom: 100px;
+}
+
+p#resultado {
     font-family: 'JetBrains Mono';
     font-weight: 100;
     hyphens: auto;

@@ -16,30 +16,57 @@
     <img src="img/Recurso 2.png" alt="">
     <div class="textos">
         <hr>
+        <p class="importantes">
+            La fórmula de Leibniz es una serie matemática que permite calcular el valor de pi de manera aproximada. Fue
+            desarrollada por el matemático alemán Gottfried Wilhelm Leibniz en el siglo XVII y es una de las pocas
+            fórmulas que se pueden utilizar para calcular pi sin necesidad de conocimientos avanzados de matemáticas.
+            <br><br>
+            <label for="numDigits">Introduce el número de iteraciones para calcular el valor de pi:</label>
+            <br>
+            <input type="number" id="iteraciones" name="iteraciones" min="1" max="100000" placeholder="Escribe aquí">
+            <button onclick="calcularPi()">Calcular</button>
+        </p>
+        <section class="form">
+            <p class="importantes">El valor de pi es:</p>
+            <p class="importantes" id="resultado"><span id="resultado"></span></p>
+        </section>
+        <p class="importantes">
+            La fórmula de Leibniz establece que pi es igual a la suma infinita de una serie de fracciones alternantes,
+            en la que el numerador es siempre 1 y el denominador es un número impar que aumenta en 2 en cada término:
+            <br><br>
+            π = 4/1 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 + ...
+            <br><br>
+            Cada término se calcula mediante una iteración, lo que la hace interesante por su simplicidad y facilidad de
+            recordar.
+            <br><br>
+            Sin embargo, la serie converge lentamente, requiriendo muchos términos para obtener una
+            aproximación precisa de pi. Otras fórmulas más complejas, como la fórmula de Bailey-Borwein-Plouffe, son más
+            eficientes.
+            <br><br>
+            Aun así, la fórmula de Leibniz sigue siendo útil para calcular de manera muy básica este número
+            irracional.
+        </p>
+        <hr>
         <form onsubmit="calcularDigitos(); return false;">
             <p class="importantes">
-                <label for="numDigits">Escribe la cantiad de dígitos que deseas calcular del número pi:</label>
+                <label for="numDigits">Si deseas calcular con mayor presición el dígito de pi, usa la siguiente
+                    calculadora y escribe la cantidad de dígitos que deseas calcular pi:</label>
                 <br>
-                <input type="number" id="numDigits" name="numDigits" min="3" max="2500" required placeholder="Escribe aquí">
+                <input type="number" id="numDigits" name="numDigits" min="3" max="2500" required
+                    placeholder="Escribe aquí">
                 <button type="submit">Calcular</button>
             </p>
             <section class="form">
-            
+
                 <p class="importantes">El valor de pi es:</p>
                 <p class="importantes" id="result"></p>
             </section>
-        </form>   
+        </form>
         <hr>
-        <p class="importantes">El número pi es una constante matemática que representa la relación entre la
-            circunferencia de un círculo y su diámetro.
-            <br>
-            Es un número irracional,
-            lo que significa que no puede ser expresado como una fracción exacta.
-            <br>
-            Pi es utilizado en muchos campos de la
-            ciencia, la ingeniería y la tecnología, y tiene un papel fundamental en geometría, trigonometría y cálculo.
-            <br>
-            Para saber <a href="https://bibliotecadigital.univalle.edu.co/bitstream/handle/10893/1512/Rev.Ing.%20y%20Competitividad%20Vol%202%2c%20No%202%2c%20p.47-62%2c2000.pdf?sequence=3&isAllowed=y" target="_blank">más</a>.
+        <p class="importantes">
+            Para saber <a
+                href="https://bibliotecadigital.univalle.edu.co/bitstream/handle/10893/1512/Rev.Ing.%20y%20Competitividad%20Vol%202%2c%20No%202%2c%20p.47-62%2c2000.pdf?sequence=3&isAllowed=y"
+                target="_blank">más sobre pi</a>.
         </p>
         <hr>
         <p class="importantes">
