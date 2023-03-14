@@ -344,21 +344,27 @@ input[type=number]::-webkit-outer-spin-button {
 /*Responsive*/
 
 @media (min-width: 1px) and (max-width: 600px) {
+
+    body {
+        padding: 20px;
+    }
+
     body img {
         margin-bottom: 150px;
     }
 
     body div.textos {
         width: 100%;
+        margin: 0;
+        margin-bottom: 100px;
+        float: none;
     }
 
     body p.importantes {
         margin-bottom: 50px;
-        margin-right: 50px;
-        width: 71vw;
     }
 
-    hr {
+    body hr {
         width: 100%;
     }
 }
