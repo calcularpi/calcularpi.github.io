@@ -348,7 +348,17 @@ input[type=number]::-webkit-outer-spin-button {
         margin-bottom: 150px;
     }
 
+    body div.textos {
+        width: 100%;
+    }
+
     body p.importantes {
         margin-bottom: 50px;
+        margin-right: 50px;
+        width: 71vw;
+    }
+
+    hr {
+        width: 100%;
     }
 }
